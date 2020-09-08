@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import State from './examples/State'
 import Effect from './examples/Effect';
+import Ref from './examples/Ref';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <State />
       <h1>useEffect</h1>
       {!hidden && <Effect />}
+
+      <Ref />
     </>
   );
 }
